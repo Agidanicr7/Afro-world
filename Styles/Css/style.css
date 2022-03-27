@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+}
+.navbar-brand img{
+    clip-path: circle();
+    width: 5rem;
+    height: 5rem;
+
+}
+
+
+.navbar-start{
+    margin: 1rem;
+    margin-left:35%
+}
+.site-text{
+    font-size: 4rem;
+    font-family: cursive;
+   
+    
+}
+
+.is-purple{
+    background-color: purple;
+    
+}
+.background-img{
+    background: url(/Styles/img/pexels-benjamin-lehman-1436141.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.signup-card{
+    display: flex;
+    justify-content: center;
+}
+
